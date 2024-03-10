@@ -1,0 +1,35 @@
+body {
+    font-size: 'Roboto',sans-serif;
+}
+.date {
+    display: none;
+}
+.sec02-bg-color {
+    background: #eee5d9;
+}
+.t-to-read {
+    font-size: 14px;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .date {
+     display: block;     
+    }
+ }
+
+@media only screen and (min-width: 1200px) {
+   .cont {
+    width: 1250px;
+   }
+   .sec01-merge-img1 {
+    position: relative;
+    color: #fff;
+   }
+   .sec01-merge-img2 {
+    position: absolute;
+    top: 350px;
+    left: 20px;
+   }
+   
+}
